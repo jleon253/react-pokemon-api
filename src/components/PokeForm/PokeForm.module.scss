@@ -1,0 +1,54 @@
+.pokeForm {
+  &Title {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px auto 20px;
+    text-align: center;
+  }
+
+  &Container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 500px;
+    
+    section {
+      width: 50%;
+    }
+  }
+
+  &Actions {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+
+    button {
+      color: #fff;
+    }
+  }
+
+  &__Primary {
+    background-color: green;
+  }
+  
+  &__Secondary {
+    background-color: red;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pokeForm {
+    &Container {
+      flex-direction: column;
+      gap: 10px;
+      width: 300px;
+
+      section {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.actionButtons {
+
+  &NoIcons {
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 6px 20px;
+  }
+
+  &Primary {
+    background-color: green;
+  }
+  
+  &Secondary {
+    background-color: red;
+
+  }
+}

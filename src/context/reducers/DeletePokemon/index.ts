@@ -1,0 +1,1 @@
+export { default, deletePokemon, deletePokemonSlice} from './DeletePokemon.slice';

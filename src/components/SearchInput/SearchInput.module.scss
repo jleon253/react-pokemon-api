@@ -1,0 +1,33 @@
+$heightInput: 40px;
+
+.searchInput {
+  &Container {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    height: $heightInput;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 0px 10px;
+    width: 100%;
+  }
+
+  &Text {
+    border: none;
+    height: calc($heightInput - 5px);
+    width: 80%;
+  }
+
+  &Action {
+    align-items: center;
+    display: flex;
+    height: calc($heightInput - 5px);
+    justify-content: center;
+    opacity: 0.4;
+    width: 10%;
+  }
+}

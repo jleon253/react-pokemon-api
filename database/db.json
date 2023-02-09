@@ -1,0 +1,105 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "charmander",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "attack": 52,
+      "defense": 43,
+      "hp": 39,
+      "type": "fire",
+      "idAuthor": 1
+    },
+    {
+      "id": 2,
+      "name": "squirtle",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "attack": 48,
+      "defense": 65,
+      "hp": 44,
+      "type": "water",
+      "idAuthor": 1
+    },
+    {
+      "id": 3,
+      "name": "bulbasaur",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "attack": 49,
+      "defense": 49,
+      "hp": 45,
+      "type": "grass",
+      "idAuthor": 1
+    },
+    {
+      "id": 4,
+      "name": "pikachu",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+      "attack": 55,
+      "defense": 40,
+      "hp": 35,
+      "type": "electric",
+      "idAuthor": 1
+    },
+    {
+      "id": 106,
+      "name": "charizard",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "attack": 84,
+      "defense": 78,
+      "hp": 78,
+      "type": "fire",
+      "idAuthor": 1
+    },
+    {
+      "id": 107
+    },
+    {
+      "id": 108
+    },
+    {
+      "id": 109
+    },
+    {
+      "id": 110
+    },
+    {
+      "id": 111,
+      "name": "snorlax",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+      "attack": "65",
+      "defense": "110",
+      "hp": "160",
+      "type": "normal",
+      "idAuthor": 1
+    },
+    {
+      "id": 112
+    },
+    {
+      "id": 113
+    },
+    {
+      "id": 114
+    },
+    {
+      "name": "John",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+      "type": "normal",
+      "hpRange": "62",
+      "attackRange": "64",
+      "defenseRange": "84",
+      "idAuthor": 253,
+      "id": 115
+    },
+    {
+      "name": "MyGlobantSpace",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "type": "normal",
+      "hpRange": "33",
+      "attackRange": "27",
+      "defenseRange": "31",
+      "idAuthor": 253,
+      "id": 116
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+.headerTable {
+  &Container {
+    background-color: #a2a2a2;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+  }
+
+  &Column {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    min-width: 150px;
+    width: 100%;
+  }
+
+  &Text {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .headerTable {
+    &Container {
+      display: none;
+    }
+    
+    &ContainerInRow {
+      background-color: #d6d6d6;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    &Column {
+      height: 50px;
+    }
+
+    &Text {
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}

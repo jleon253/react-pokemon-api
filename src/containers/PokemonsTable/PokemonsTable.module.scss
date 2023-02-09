@@ -1,0 +1,15 @@
+.pokemonsTable {
+  &Container {
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pokemonsTable {
+    &Container {
+      border: none;
+      border-radius: 0px;
+    }
+  }
+}
